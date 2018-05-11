@@ -1,1 +1,5 @@
 /* Add here all your CSS customizations */
+.partners img{
+  width: 70%;
+  margin: 0 auto;
+}
