@@ -1374,7 +1374,7 @@
                 </div>
                 <div class="feature-box-info">
                   <h6 class="mb-0 text-2">Call us</h6>
-                  <a href="tel:+88934567898" class="text-color-light text-decoration-none">+800 123 4567</a>
+                  <a href="tel:+88934567898" class="text-color-light text-decoration-none">0113 314 3737</a>
                 </div>
               </div>
               <div class="feature-box feature-box-style-2 custom-feature-box-style-2 mb-4">
@@ -1383,17 +1383,17 @@
                 </div>
                 <div class="feature-box-info">
                   <h6 class="mb-0 text-2">Our Location</h6>
-                  <p class="tall text-color-light">123 PORTO AVE PORTO, 1235</p>
+                  <p class="tall text-color-light">Platform, New Station Street, Leeds, LS1 4JB</p>
                 </div>
               </div>
-              <h5 class="text-color-light">SEND A MESSAGE</h5>
+              <h5 class="text-color-light">FIND OUT MORE</h5>
               <form id="contactForm" class="custom-contact-form-style-1" action="php/contact-form.php" method="POST">
                 <div class="alert alert-success d-none mt-4" id="contactSuccess">
-                  <strong>Success!</strong> Your message has been sent to us.
+                  <strong>Thanks :)</strong> We'll be in touch in a jiffy.
                 </div>
 
                 <div class="alert alert-danger d-none mt-4" id="contactError">
-                  <strong>Error!</strong> There was an error sending your message.
+                  <strong>Oh dDear :(</strong> There was an error sending your message.
                   <span class="text-1 mt-2 d-block" id="mailErrorMessage"></span>
                 </div>
                 <div class="form-row _divider">
@@ -1411,12 +1411,17 @@
                 </div>
                 <div class="form-row">
                   <div class="form-group col">
+                    <input type="text" value="" maxlength="100" class="form-control" name="company" id="company" placeholder="COMPANY/ORG NAME" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
                     <textarea maxlength="5000" rows="5" class="form-control custom-textarea-style" name="message" id="message" placeholder="COMMENT" required></textarea>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="col">
-                    <input type="submit" value="SUBMIT" class="btn btn-primary custom-btn-style-2 text-color-light custom-margin-2 float-right mt-2" data-loading-text="Loading...">
+                    <input type="submit" value="SEND ME INFO" class="btn btn-primary custom-btn-style-2 text-color-light custom-margin-2 float-right mt-2" data-loading-text="Loading...">
                   </div>
                 </div>
               </form>
@@ -1494,7 +1499,7 @@
     <script src="js/theme.init.js"></script>
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNuclBOReq4JZqa0hKki7VKjYXrrvr2RQ"></script>
     <script>
       /*
       			Map Settings
@@ -1507,8 +1512,8 @@
 
       // Map Markers
       var mapMarkers = [{
-        address: "New York, NY 10017",
-        html: "<strong>Porto One Page Agency</strong><br>New York, NY 10017",
+        address: "Tech Hub, Platform, New Station Street",
+        html: "<strong>Tech Hub, Platform</strong><br>Leeds, LS1 4JB",
         icon: {
           image: "img/pin.png",
           iconsize: [26, 46],
@@ -1518,8 +1523,8 @@
       }];
 
       // Map Initial Location
-      var initLatitude = 40.75198;
-      var initLongitude = -73.96978;
+      var initLatitude = 53.79496;
+      var initLongitude = -1.54650;
 
       // Map Extended Settings
       var mapSettings = {
