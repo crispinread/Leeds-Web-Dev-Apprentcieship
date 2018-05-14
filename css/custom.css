@@ -1,5 +1,20 @@
 /* Add here all your CSS customizations */
 .partners img{
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 2em;
+}
+
+
+
+.call-to-action.with-button-arrow .call-to-action-btn {
+    top: 30%;
+}
+.call-to-action .call-to-action-btn {
+    width: 22%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin: -18px 0 0;
+    left: auto;
+    right: 25px;
 }
