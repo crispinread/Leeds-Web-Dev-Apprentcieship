@@ -16,7 +16,7 @@ require_once('php-mailer/PHPMailerAutoload.php');
 $email = 'crispin@usercrunch.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
-$debug = 0;
+$debug = 2;
 
 $subject = $_POST['subject'];
 
@@ -59,8 +59,8 @@ try {
 
 	$mail->AddAddress($email);	 						       // Add another recipient
 
-	$mail->AddAddress('rachel@usercrunch.com', 'Rachel');     // Add a secondary recipient
-	$mail->AddCC('sheena@happy.com', 'Sheena');          // Add a "Cc" address. 
+	//$mail->AddAddress('rachel@usercrunch.com', 'Rachel');     // Add a secondary recipient
+	//$mail->AddCC('sheena@happy.com', 'Sheena');          // Add a "Cc" address.
 	//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address.
 
 	$mail->SetFrom($email, $_POST['name']);
