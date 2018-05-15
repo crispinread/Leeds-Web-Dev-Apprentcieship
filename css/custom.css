@@ -4,8 +4,12 @@
   margin: 0 auto 2em;
 }
 
-
-
+.call-to-action .call-to-action-content{
+  width: 78%;
+}
+.img-circle {
+    border-radius: 50%;
+}
 .call-to-action.with-button-arrow .call-to-action-btn {
     top: 30%;
 }
